@@ -3,7 +3,7 @@ var qs = require('qs');
 
 
 if (process.env.NODE_ENV === 'development') {
-  axios.defaults.baseURL =  /com/.test(window.location.href) ? '' : 'http://tst.yaodunchain.fruitsgood.com';
+  axios.defaults.baseURL =  '';
 }
 
 import VueRouter from 'vue-router';
